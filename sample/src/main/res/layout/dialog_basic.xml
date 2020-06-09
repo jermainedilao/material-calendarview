@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
-    tools:context=".BasicActivity"
-    >
+    android:orientation="vertical"
+    android:paddingStart="9dp"
+    android:paddingEnd="9dp"
+    android:paddingTop="33dp"
+    tools:context=".BasicActivity">
 
-  <com.prolificinteractive.materialcalendarview.MaterialCalendarView
-      android:id="@+id/calendarView"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      />
-
-  <TextView
-      android:id="@+id/textView"
-      android:layout_margin="16dp"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:layout_gravity="center"
-      android:textAppearance="?android:attr/textAppearanceLarge"
-      />
-
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mcv_dateTextAppearance="@style/CalendarDayTextAppearance"
+        app:mcv_headerTextAppearance="@style/CalendarMonthTextAppearance"
+        app:mcv_leftArrow="@drawable/ic_chevron_left"
+        app:mcv_rightArrow="@drawable/ic_chevron_right"
+        app:mcv_selectionMode="range"
+        app:mcv_firstDayOfWeek="monday"
+        app:mcv_weekDayTextAppearance="@style/CalendarWeekTextAppearance" />
 </LinearLayout>

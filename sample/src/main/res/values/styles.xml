@@ -1,16 +1,41 @@
 <resources>
 
-  <!-- Base application theme. -->
-  <style name="AppTheme"
-      parent="Theme.AppCompat.Light.DarkActionBar">
-    <item name="colorPrimary">@color/sample_primary</item>
-    <item name="colorPrimaryDark">@color/sample_primary</item>
-    <item name="colorAccent">@color/sample_accent</item>
-  </style>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/sample_primary</item>
+        <item name="colorPrimaryDark">@color/sample_primary</item>
+        <item name="colorAccent">@color/sample_accent</item>
+    </style>
 
-  <style name="CustomTextAppearance" parent="TextAppearance.AppCompat.Medium">
-    <item name="android:textColor">@color/mcv_text_date_light</item>
-    <item name="fontFamily">@font/shirkhand</item>
-  </style>
+    <style name="CustomTextAppearance" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">@color/mcv_text_date_light</item>
+        <item name="fontFamily">@font/shirkhand</item>
+    </style>
 
+    <style name="CalendarMonthTextAppearance" parent="TextAppearance.AppCompat.Medium">
+        <item name="fontFamily">@font/inter_semibold</item>
+        <item name="android:textColor">@color/catalina_blue</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:layout_marginStart">40dp</item>
+        <item name="android:layout_marginLeft">40dp</item>
+        <item name="android:layout_marginEnd">40dp</item>
+        <item name="android:layout_marginRight">40dp</item>
+    </style>
+
+    <style name="CalendarWeekTextAppearance" parent="TextAppearance.AppCompat.Medium">
+        <item name="fontFamily">@font/inter_regular</item>
+        <item name="android:textColor">@color/logan</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="CalendarDayTextAppearance" parent="TextAppearance.AppCompat.Medium">
+        <item name="fontFamily">@font/inter_medium</item>
+        <item name="android:textColor">@color/calendar_day_text_color</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
 </resources>

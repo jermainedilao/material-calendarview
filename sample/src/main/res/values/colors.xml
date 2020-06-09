@@ -2,4 +2,10 @@
 <resources>
   <color name="sample_primary">#0093FF</color>
   <color name="sample_accent">#006BBA</color>
+
+  <color name="navy">#0055FF</color>
+  <color name="logan">#9397AE</color>
+  <color name="catalina_blue">#28305E</color>
+  <color name="lavender_blue">#BED4FF</color>
+  <color name="alice_blue">#E5EFFF</color>
 </resources>
